@@ -1,6 +1,6 @@
 package com.example.peoplelist;
 
-public class Person {
+public class Person implements Comparable<Person> {
 
     private String name;
     private int age;
@@ -15,6 +15,10 @@ public class Person {
     }
 
     // compareTo for sorting
+    @Override
+    public int compareTo(Person other) {
+        return this.name.compareTo(other.name);
+    }
 
 
 
@@ -43,4 +47,6 @@ public class Person {
     public void setPictureNumber(int pictureNumber) {
         this.pictureNumber = pictureNumber;
     }
+
+
 }
