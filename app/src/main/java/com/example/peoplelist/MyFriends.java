@@ -20,7 +20,7 @@ public class MyFriends {
 
         Random rng = new Random();
         for (int i = 0; i<startingNames.length; i++){
-            Person p = new Person(startingNames[i], rng.nextInt(50) + 15, rng.nextInt(30));
+            Person p = new Person(startingNames[i], rng.nextInt(25) + 15, rng.nextInt(15));
             myFriendsList.add(p);
         }
     }
