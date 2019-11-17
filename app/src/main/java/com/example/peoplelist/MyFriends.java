@@ -14,7 +14,7 @@ public class MyFriends {
     }
 
     public MyFriends() {
-        String[] startingNames = {"Anselm", "Beatrice", "Carlisle"};
+        String[] startingNames = {"Michael Scott", "Pam Beesley", "Jim Halpert"};
 
         this.myFriendsList = new ArrayList<>();
 
